@@ -8,6 +8,9 @@ export const STORAGE_KEYS = {
   // Ediciones del usuario sobre la rutina base, por fase+día+índice:
   // { '1-A-2': { sets?, reps?, note?, exId?, name? }, ... }
   routineOverrides: 'gym.routineOverrides.v1',
+  // Sincronización en la nube:
+  syncCode: 'gym.syncCode.v1', // código que liga este dispositivo con la fila en la nube
+  syncTs: 'gym.syncTs.v1', // ms del último cambio local sincronizado (last-write-wins)
 }
 
 // Forma de una sesión guardada en el historial (la escribe el flujo de sesión):
