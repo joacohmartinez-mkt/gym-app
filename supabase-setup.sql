@@ -1,7 +1,7 @@
 -- ───────────────────────────────────────────────────────────────────────────
 -- Setup de Supabase para la sincronización de la app de entrenamiento.
+-- Proyecto: gym-app (okxqbtqajbqwvsiahdin.supabase.co)
 -- Pegá TODO esto en: Supabase → SQL Editor → New query → Run.
--- (Usá el MISMO proyecto que la app de Buenos Aires; esto solo agrega una tabla.)
 -- ───────────────────────────────────────────────────────────────────────────
 
 -- Una fila por "código de sincronización". `data` guarda todo el estado de la app
